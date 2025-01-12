@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-library
+  description: |
+    This is a sample library.
+  links:
+    - title: My first link
+      url: https://somewhere
+  annotations:
+    backstage.io/kubernetes-id: sample-library
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: sampleorg/sample-library
+spec:
+  type: library
+  lifecycle: production
+  owner: rhdh
